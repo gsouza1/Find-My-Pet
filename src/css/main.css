@@ -5,7 +5,7 @@
     justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #F6FAF9;
+    background-color: #f5fffd;
     align-items: center;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -83,6 +83,7 @@
     padding: 8px;
 
 }
+
 .lista .itens a{
     text-decoration: none;
     color: #F6FAF9;
@@ -115,8 +116,37 @@ hr{
 .dev a{
     text-decoration: none;
     color: #F6FAF9;
-
 }
+
 .dev a:hover{
     font-weight: 500;
 }
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    background-color:  #f5fffd;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.first .esquerda{
+    text-align: justify;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    width:  65%;
+    
+}
+
+.first .esquerda .titulo{
+    font-size: 1.5rem;
+    padding-bottom: 5%;
+
+}
+
+.first .direita{
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    width:  65%;
+    }    
