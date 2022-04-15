@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #F6FAF9;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.logo{
+    color: #FFAA00;
+    font-size: 25px;
+}
+
+.menu .itens{
+    display: flex;
+    justify-content: center;
+    font-size: 115%;
+}
+
+.menu .itens .categoria{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.menu .itens .categoria .nav-link{
+    color: orange
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    background-color:teal;
+    height: 260px;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.rodape .direita{
+    text-align: center;
+    width: 40%;
+    background-color: none;
+}
+
+.rodape .direita .logo{
+    padding-bottom: 10%;
+}
+
+.endereco{
+    padding-bottom: 10%;
+    color: #F6FAF9;
+}
+
+.rodape .esquerda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    width: 55%;
+    height: 80%;
+}
+
+.rodape .esquerda .lista{
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+}
+
+.esquerda .lista .titulo{
+    color: orange;
+    font-size: 1.2rem;
+    padding: 5%;
+}
+
+.lista .itens{
+    align-content: space-between;
+    color: #F6FAF9;
+    padding: 8px;
+
+}
+.lista .itens a{
+    text-decoration: none;
+    color: #F6FAF9;
+
+}
+.lista .itens a:hover{
+    font-weight: 500;
+}
+
+.menu .itens .categoria:hover{
+    font-weight: 500;
+}
+    
+hr{
+    margin: 0;
+    color: orange;
+    opacity: 90%;
+}
+
+.dev{
+    background-color:teal;
+    height: 10%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #F6FAF9;
+    font-size: 80%;
+}
+
+.dev a{
+    text-decoration: none;
+    color: #F6FAF9;
+
+}
+.dev a:hover{
+    font-weight: 500;
+}
