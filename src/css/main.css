@@ -149,10 +149,14 @@ hr{
     padding-bottom: 5%;
     padding-top: 5%;
     width:  65%;
-    }    
+}    
 
 .faq{
-    padding: 10%;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    background-color: #f5fffd;
 }
 
 .faq .titulo{
@@ -160,9 +164,110 @@ hr{
     padding-bottom: 2%;
     text-align: center;
 }
+
 .accordion-button:not(.collapsed) {
     color: orange;
     font-weight: 600;
-    background-color: #fffaec;
+    background-color: #ffffee;
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
+
+.accordion-button{
+    background-color: #f5fffd;
+}
+
+.accordion-flush .accordion-collapse{
+    background-color: #ffffff;
+    font-weight: 500;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 8%;
+}
+
+.depoimento{
+    display: block;
+    width: 100%;
+    margin: auto;
+    border: red solid;
+    height: 425px; 
+
+}
+
+.depoimento .esquerda{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    margin: 5px;
+    padding-right: 40%;
+}
+
+.depoimento .esquerda .foto{
+    width: 20%;
+    height: 100%;
+    border: blue solid;
+
+}
+
+.depoimento .esquerda .pessoa1{
+    background-image: url("../img/pessoa1.jpg");
+    background-position: center;
+    background-size: auto;
+}
+
+.depoimento .direita .pessoa2{
+    background-image: url("../img/pessoa2.jpg");
+    background-position: center;
+    background-size: auto;
+}
+
+.depoimento .esquerda .pessoa3{
+    background-image: url("../img/pessoa3.jpg");
+    background-position: center;
+    background-size: auto;
+}
+
+.depoimento .direita .pessoa4{
+    background-image: url("../img/pessoa4.jpg");
+    background-position: center;
+    background-size: auto;
+}
+
+.depoimento .esquerda .pessoa5{
+    background-image: url("../img/pessoa5.jpg");
+    background-position: center;
+    background-size: auto;
+}
+
+.depoimento .direita .pessoa6{
+    background-image: url("../img/pessoa6.jpg");
+    background-position: center;
+    background-size: auto;
+}
+
+.depoimento .esquerda .texto{
+    border: black solid;
+    width: 80%;
+    height: auto;
+}
+
+.depoimento .direita{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    margin: 5px;
+    padding-left: 40%;
+}
+
+.depoimento .direita .foto{
+    width: 20%;
+    height: 100%;
+    border: blue solid;
+}
+
+.depoimento .direita .texto{
+    border: black solid;
+    width: 80%;
+    height: auto;
+}
+
